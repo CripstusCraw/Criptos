@@ -13,7 +13,6 @@ function createNewsHtml(news) {
     newsComponent += '<a href="#">'+ news.source +'</a> | '
     newsComponent += '<a href="#">'+ news.time +'</a>'
     newsComponent += '</div>'
-    newsComponent += '<p>{Descrição}</p>'
     newsComponent += '</div>'
     newsComponent += '</div>'
     newsComponent += '</div>'
