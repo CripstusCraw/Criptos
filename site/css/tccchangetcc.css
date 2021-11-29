@@ -1,0 +1,21 @@
+.hero-slides .single-hero-slide {
+  height: 300px;
+}
+
+.hero-slides .single-hero-slide .hero-slides-thumb img {
+  width: 75%;
+}
+
+.hero-slides .single-hero-slide {
+  background: linear-gradient(to right, #000000, #f24f00db)
+}
+
+.section-padding-100 {
+
+  padding-bottom: 50px;
+}
+
+.footer-area .container-footer {
+  height: 100px;
+
+}
