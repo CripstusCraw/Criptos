@@ -23,3 +23,8 @@
 .breadcumb-area .breadcumb-thumb-area {
   background: linear-gradient(to right, #000000, #f24f00db)
 }
+
+.main-footer-area {
+
+  height: 350px;
+}
