@@ -14,13 +14,19 @@ class GoogleNewsSpider(scrapy.Spider):
 
     def parse(self, response, **kwargs):
         for article in response.xpath('//article'):
-            yield {
+            article_parsed = {
                 'title': article.xpath('h3/a/text()').get(),
                 'image': article.xpath('../../a/figure/img/@src').get(),
                 'source': article.xpath('div//time/../a/text()').get(),
                 'time': article.xpath('div//time/text()').get(),
                 'url': article.xpath('a/@href').get().replace('./', 'https://news.google.com/')
             }
+            if None in list(article_parsed.values()):
+                continue
+
+            yield article_parsed
+
+
 
 
 process = CrawlerProcess(settings={
