@@ -30,8 +30,8 @@ function loadCoins() {
     req.onload  = function() {
        const newsJson = JSON.parse(req.responseText);
        var text = ''
-       // for (let i = 0; i < newsJson.length; i++) {
-       for (let i = 0; i < length; i++) {
+       for (let i = 0; i < newsJson.length; i++) {
+       //for (let i = 0; i < 6; i++) {
            text +=  createNewsHtml(newsJson[i])
        }
        document.getElementById("news-content").innerHTML = text
