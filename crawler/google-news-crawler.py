@@ -6,7 +6,7 @@ from scrapy.crawler import CrawlerProcess
 class GoogleNewsSpider(scrapy.Spider):
     name = 'google-news-crawler'
 
-    start_urls = ['https://news.google.com/search?q=Crypto+moedas+when:7d&hl=pt-BR']
+    start_urls = ['https://news.google.com/search?q=Cripto+moedas+when:7d&hl=pt-BR']
 
     @staticmethod
     def clear_string(string):
