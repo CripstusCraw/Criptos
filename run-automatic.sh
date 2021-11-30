@@ -1,5 +1,9 @@
 #!/bin/sh
 
+
+source venv/Scripts/activate
+
+
 while true
 do
   echo "tudo de novo"
