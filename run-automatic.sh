@@ -1,11 +1,8 @@
 #!/bin/sh
 
 
-source venv/Scripts/activate
-
-
-while true
-do
+#while true
+#do
   echo "tudo de novo"
   sleep 2
   rm -rf ./output/*
@@ -17,4 +14,4 @@ do
 
   echo "durmi um poquinho"
   sleep 5
-done
+#done
