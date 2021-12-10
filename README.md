@@ -6,7 +6,7 @@
 ``` deletar manualmente arquivos json ```
 - rodar os scripts do crawler
 ```  python crawler/google-news-crawler.py```
-``` python crawler/google-news-crawler.py ```
+``` crawler/coinmarketcap-crawler.py ```
 - git add - status - commit - push
 
 ou 
